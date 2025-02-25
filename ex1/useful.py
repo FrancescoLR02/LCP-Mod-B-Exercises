@@ -25,7 +25,7 @@ def NF(x,B,c=1):
 
 def plot_data(x,y):  
     plt.figure(figsize = (6,6))
-    plt.scatter(x[:,0],x[:,1],s=6,c=y)
+    plt.scatter(x[:,0], x[:,1],s=6,c=y)
     plt.show()
 
 
